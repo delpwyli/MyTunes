@@ -488,3 +488,19 @@ fieldset[disabled] .btn-success:hover {
 .btn:focus {
 	outline: none;
 }
+
+.up {
+	transform: rotate(180deg);
+}
+
+.go-up {
+	z-index: 10000000;
+	width: 4rem;
+	height: 4rem;
+	background: #212529 url(../assets/svg/down-arrow.svg) no-repeat center;
+	background-size: 50%;
+	border-radius: 100%;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+}
